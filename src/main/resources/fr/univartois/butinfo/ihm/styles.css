@@ -1,0 +1,79 @@
+/* Style général */
+.root {
+    -fx-background-color: #2c3e50;
+    -fx-font-family: 'Arial';
+}
+
+/* Style du titre */
+.label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Style du bouton Nouvelle Partie */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+    -fx-cursor: hand;
+}
+
+/* Style de la grille */
+#gridPane {
+    -fx-background-color: #34495e;
+    -fx-padding: 20px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+/* Style des cellules du jeu */
+.grid-cell {
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+/* Style pour les lumières allumées */
+.light-on {
+    -fx-background-color: #f1c40f;
+    -fx-effect: dropshadow(three-pass-box, #f39c12, 10, 0, 0, 0);
+}
+
+/* Style pour les lumières éteintes */
+.light-off {
+    -fx-background-color: #7f8c8d;
+}
+
+.dialog-pane {
+    -fx-background-color: #2c3e50;
+}
+
+.dialog-pane .content {
+    -fx-background-color: #2c3e50;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #2c3e50;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+/* Style pour le bouton tricher */
+#btnTricher {
+    -fx-background-color: #e74c3c;
+}
+
+#btnTricher:hover {
+    -fx-background-color: #c0392b;
+}
